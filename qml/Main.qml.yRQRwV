@@ -1,0 +1,16 @@
+import Felgo 3.0
+import QtQuick 2.0
+
+App {
+    NavigationStack{
+        id: head
+       Page{
+            title: qsTr("MY ACCOUNT")
+            //anchors.centerIn: parent
+           AppText{
+          text: "Hello world"
+           anchors.centerIn: parent
+       }
+    }
+}
+}
